@@ -1,0 +1,25 @@
+import streamlit as st
+st.set_page_config(page_title="Mi primera aplicación de Streamlit", layout="wide")
+with st.sidebar:
+    st.markdown("### Mi primera barra lateral de Streamlit")
+    st.write("¡Hola, Barra Lateral!")
+    st.text("Esto es una barra lateral")
+    # Puedes usar una imagen o texto para representar el logo si no tienes el archivo local
+    # st.image("logo_uss.png", width=200) 
+    st.markdown("**UNIVERSIDAD SAN SESTIAN** *(Vocación por la Excelencia)*")
+    # Componente interactivo en la barra lateral
+    if st.button("Haz clic pero en la barra lateral"):
+        st.write("¡Botón de la barra lateral presionado!")
+    texto_barra = st.text_input("Escribe algo en la barra:")
+    st.write(f"Escribiste en la barra: {texto_barra}")
+st.title("Mi primera aplicación de Streamlit")
+st.subheader("¡Hola, Streamlit!")
+st.text("Esta es una aplicación simple")
+# Logo o representación en el área principal
+# st.image("logo_uss.png", width=250)
+st.markdown("### 🌲 UNIVERSIDAD SAN SEBASTIÁN")
+st.caption("Vocación por la Excelencia")
+if st.button("Haz clic"):
+    st.write("¡Botón principal presionado!")
+texto_principal = st.text_input("Escribe algo:")
+st.write(f"Escribiste: {texto_principal}")
