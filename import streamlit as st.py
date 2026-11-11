@@ -1,7 +1,6 @@
 import streamlit as st
 # URL del logo institucional oficial de la USS
 LOGO_USS_URL = "https://mi.uss.cl/_next/static/media/logoUSSWithLabel.fc3b9027.svg"
-    # Títulos e información
     st.header("Mi primera barra lateral de Streamlit")
     st.subheader("¡Hola, Barra Lateral!")
     st.write("Esto es una barra lateral")
