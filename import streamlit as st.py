@@ -13,7 +13,7 @@ with st.sidebar:
     st.write("Esto es una barra lateral")
     
     # Imagen del logo institucional
-    st.image(LOGO_USS_URL, width=200)
+    st.image(LOGO_USS_URL.jpg, width=200)
     
     # Botón interactivo
     st.button("Haz clic pero en la barra lateral")
@@ -34,7 +34,7 @@ st.subheader("¡Hola, Streamlit!")
 st.write("Esta es una aplicación simple")
 
 # Imagen del logo institucional
-st.image(LOGO_USS_URL, width=250)
+st.image(LOGO_USS_URL.jpg, width=250)
 
 # Botón interactivo
 st.button("Haz clic")
